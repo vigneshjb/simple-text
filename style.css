@@ -1,0 +1,27 @@
+body {
+	background: #ffcc99;
+	font-family: sans-serif;
+	color: #111111;
+	margin: 0;
+	padding: 0;
+}
+
+.text-space{
+	width: 70%;
+	font-size: 20pt;
+	line-height: 1.25;
+	margin: 0 auto;
+	padding: 10px;
+	height: 100%;
+	text-align: center;
+}
+
+.text-space:focus{
+	outline: none;
+}
+
+.text-space[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #555; 
+    text-align: center;
+}
